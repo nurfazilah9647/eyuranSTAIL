@@ -17,7 +17,7 @@ $row=mysqli_fetch_array($query);
 				          <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
                                 <thead>
                                     <tr>
-                                        <th width="50">Code</th>
+                                        <th width="50"></th>
                                         <th width="30">Name</th>
                                         <th width="300">Description</th>
                                         <th width="30">Type</th>
