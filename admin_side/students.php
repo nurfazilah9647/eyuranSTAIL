@@ -31,13 +31,13 @@
                                 <tbody>
 							<!--SELECT * from tblstudents JOIN tblclasses where tblstudents.ClassId = 1 AND tblclasses.id = 1-->
                                 	<?php
-                                  		$user_query=mysql_query("SELECT * from tblstudents ") or die(mysql_error());
-										while($row=mysql_fetch_array($user_query)){
+                                  		$user_query=mysqli_query($dbcon, "SELECT * from tblstudents ") or die(mysqli_error());
+										while($row=mysqli_fetch_array($user_query)){
 										$id=$row['RollId'];
 
 										$student_class_id = $row['ClassId']; 
-										$class_query = mysql_query("SELECT * from tblclasses where id = '$student_class_id'")or die(mysql_error());
-										$class_row = mysql_fetch_array($class_query);
+										$class_query = mysqli_query($dbcon,"SELECT * from tblclasses where id = '$student_class_id'")or die(mysqli_error());
+										$class_row = mysqli_fetch_array($class_query);
 										$class_id =  $class_row['id']; 
 									?>
 									<tr class="del<?php echo $id ?>">

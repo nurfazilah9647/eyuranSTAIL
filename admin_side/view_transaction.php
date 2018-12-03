@@ -11,7 +11,7 @@
 include ('dbcon.php');
 
 $sql2="SELECT * from view_transaction ORDER BY StudentName ASC";
-$result = mysql_query($sql2) or die(mysql_error());//conn for check connection
+$result = mysqli_query($dbcon , $sql2) or die(mysqli_error($dbcon));//conn for check connection
 ?>
 
 <P><strong><center>Report</strong></center>
@@ -34,7 +34,7 @@ $result = mysql_query($sql2) or die(mysql_error());//conn for check connection
 
 <?php
 
-while ($row=mysql_fetch_array($result))
+while ($row=mysqli_fetch_array($result))
 {
 	echo"<tr>";
 	echo"<td>" .$row["StudentName"]. "</td>"; 

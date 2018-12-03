@@ -7,8 +7,8 @@
 			<div class="row">	
 			<div class="span12">	
 		<?php 
-		$query=mysql_query("SELECT * from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId where RollId='$get_id'")or die(mysql_error());
-		$row=mysql_fetch_array($query);
+		$query=mysqli_query($dbcon,"SELECT * from tblstudents join tblclasses on tblclasses.id=tblstudents.ClassId where RollId='$get_id'")or die(mysqli_error());
+		$row=mysqli_fetch_array($query);
 		
 		?>
              <div class="alert alert-info"><i class="icon-pencil"></i>&nbsp;Edit Student</div>

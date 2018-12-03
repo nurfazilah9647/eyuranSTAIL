@@ -1,7 +1,7 @@
 		<div class="span12">
 				<div class="header">
 				<div class="pull-left">
-				<img class="stilogo" src="SYS/123.png">
+				<img class="stilogo" src="img/tahfiz.jpg">
 				</div>
 				</div>
 					<div class="alert alert-success"><Strong>Heads Up!</strong>&nbsp; Welcome to Sekolah Tahfiz Al-Islah

@@ -36,8 +36,8 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php $user_query=mysql_query("SELECT * from tblclasses")or die(mysql_error());
-									while($row=mysql_fetch_array($user_query)){
+                                  <?php $user_query=mysqli_query($dbcon, "SELECT * from tblclasses")or die(mysqli_error($dbcon));
+									while($row=mysqli_fetch_array($user_query)){
 									$id=$row['id']; ?>
 									<tr class="del<?php echo $id ?>">
                                     <td><?php echo $row['id']; ?></td> 

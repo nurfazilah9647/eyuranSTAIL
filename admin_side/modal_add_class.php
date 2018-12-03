@@ -32,11 +32,11 @@
 	$title=$_POST['title'];
 
 		
-$error_course=mysql_query("select * from tblclasses where id='$code'")or die(mysql_error());
- $count=mysql_num_rows($error_course);
+$error_course=mysqli_query($dbcon, "select * from tblclasses where id='$code'")or die(mysqli_error());
+ $count=mysqli_num_rows($error_course);
  
  if ($count  != 1){
-	mysql_query("INSERT into tblclasses (id,ClassName) values('$code','$title')")or die(mysql_error());
+	mysqli_query($dbcon, "INSERT into tblclasses (id,ClassName) values('$code','$title')")or die(mysqli_error($dbcon));
 	}else{ ?>
 	   <script type="text/javascript">
                         alert('Class Already Exist');

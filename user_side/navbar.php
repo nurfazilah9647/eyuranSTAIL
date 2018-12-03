@@ -51,7 +51,7 @@
 						<strong class="name1"><?php echo $row['StudentName']?></strong></a>
 					</li>
 					<li>
-						<a href="cart.php"> Item <strong class="name1"></strong></a>
+						<a href="cart.php"> e-Yuran <strong class="name1"></strong></a>
 					</li>
 					<li>
 						<a href="viewpurchase.php"> Payment History <strong class="name1"></strong></a>

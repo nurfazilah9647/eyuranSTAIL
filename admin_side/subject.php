@@ -32,8 +32,8 @@
                                 </thead>
                                 <tbody>
 								 
-                                  <?php $user_query=mysql_query("SELECT * from tblextras") or die(mysql_error());
-									while($row=mysql_fetch_array($user_query))
+                                  <?php $user_query=mysqli_query($dbcon, "SELECT * from tblextras") or die(mysqli_error($dbcon));
+									while($row=mysqli_fetch_array($user_query))
 									{
 										$extra_id=$row['extra_id']; 
 																	

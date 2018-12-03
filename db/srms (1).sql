@@ -241,8 +241,8 @@ ALTER TABLE `admin`
 --
 -- Indexes for table `tblcart`
 --
-ALTER TABLE `tblcart`
-  ADD PRIMARY KEY (`cart_id`),
+  ADD ALTER TABLE `tblcart`
+PRIMARY KEY (`cart_id`),
   ADD KEY `extra_id` (`extra_id`),
   ADD KEY `RollId` (`RollId`);
 

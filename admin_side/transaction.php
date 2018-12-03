@@ -31,9 +31,9 @@
                                 <tbody>
 								 
                                   <?php
-                                  	$user_query=mysql_query("SELECT * from tblcart, tblextras WHERE tblcart.extra_id = tblextras.extra_id") or die(mysql_error());
+                                  	$user_query=mysqli_query($dbcon, "SELECT * from tblcart, tblextras WHERE tblcart.extra_id = tblextras.extra_id") or die(mysqli_error());
 									
-									while($extra2_row=mysql_fetch_array($user_query))
+									while($extra2_row=mysqli_fetch_array($user_query))
 									{
 									?>
 									<tr>

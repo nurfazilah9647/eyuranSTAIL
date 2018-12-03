@@ -1,3 +1,6 @@
 <?php
-mysqli_select_db(['eyuran'])mysql_connect(['localhost','root',''])or die(mysql_error());
+$dbcon=mysqli_connect("localhost","root","","eyuran");
+if(!$dbcon){
+	die("Connection failed: " . mysqli_connect_error());
+}
 ?>

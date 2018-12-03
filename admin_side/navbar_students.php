@@ -1,7 +1,7 @@
 <?php include('dbcon.php'); ?>
 <?php
-$user_query  = mysql_query("SELECT * from admin where id = '$session_id'")or die(mysql_error());
-$user_row =mysql_fetch_array($user_query);
+$user_query  = mysqli_query($dbcon, "SELECT * from admin where id = '$session_id'")or die(mysqli_error());
+$user_row =mysqli_fetch_array($user_query);
 
 ?>     
     <div class="navbar navbar-fixed-top navbar-inverse">
