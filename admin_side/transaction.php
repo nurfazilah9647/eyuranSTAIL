@@ -17,12 +17,12 @@
                                
                                 <thead>
                                     <tr>
-                                        <th width="50">Trans</th>
-                                        <th width="50">Item ID</th>
-                                        <th width="200">Item Name</th>
-                                        <th width="50">Type</th>
+                                        <th width="50">bil</th>
+                                        <th width="50">Fee ID</th>
+                                        <th width="200"> Name</th>
+                                        <th width="50">Fee Type</th>
                                         <th width="70">Price</th> 
-                                        <th width="50">Qty</th>
+                                        <th width="50">Total student</th>
                                         <th width="20">Status</th>
                                         <th width="80">Paid Date</th>
                                         <th width="80">Action</th>  

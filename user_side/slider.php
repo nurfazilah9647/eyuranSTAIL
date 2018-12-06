@@ -1,8 +1,8 @@
     	<div style="overflow:hidden; width:960px; margin:0 auto; padding:0 20px;"> 
                 <div class="pix_diapo">
 
-                    <div data-thumb="sti/30657487.jpg">
-                        <img src="sti/30657487.jpg">
+                    <div data-thumb="images/stail1.jpg">
+                        <img src="images/stail2.jpg">
                       
                     </div>
                     

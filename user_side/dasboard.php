@@ -14,39 +14,22 @@ $row=mysqli_fetch_array($query);
 				</div>
 				<div class="span10">
 			
-				          <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
-                                <thead>
-                                    <tr>
-                                        <th width="50">Code</th>
-                                        <th width="30">Name</th>
-                                        <th width="300">Description</th>
-                                        <th width="30">Type</th>
-                                        <th width="50">Price</th> 
-                                        <th width="80">Action</th>                                 
-                                  
-                                    </tr>
-                                </thead>
-                                <tbody>
-								 
-                                  <?php  
-                                  
-                                  $extra_query=mysqli_query($dbcon,"SELECT * from tblextras ORDER BY 'extra_type'") or die(mysql_error());
+				        
+</style>
+</head>
+<body>
 
-									while($extra2_row=mysqli_fetch_array($extra_query)){
-									?>
-									<tr>
-                                    <td><?php echo $extra2_row['extra_id']; ?></td> 
-                                    <td><?php echo $extra2_row['extra_name']; ?></td>
-                                    <td><?php echo $extra2_row['extra_desc']; ?></td>
-                                    <td><?php echo $extra2_row['extra_type']; ?></td>
-									<td><?php echo $extra2_row['extra_price']; ?></td>												
-									<td><form method="post" action="view.php<?php echo '?id='.$extra2_row['extra_id']; ?>"><input type="hidden" name="extra_id" value=<?php echo $extra2_row['extra_id']; ?>><input type="submit" value="More Info" class="button"/></form></td>							
-                                    </tr>
+<button class="button button1" style="
+    height: 46px;
+">Semak Yuran</button>
+<button class="button button1" style="
+    height: 46px;
+">Cara Pembayaran Yuran</button>
+<button class="button button1" style="
+    height: 46px;
+">Cetak Resit Pembayaran </button>
 
-									<?php  }  ?>
-                           
-                                </tbody>
-                            </table>
+
 
 				</div>
 				

@@ -1,6 +1,6 @@
 <?php
 include('dbcon.php');
 $id=$_GET['id'];
-mysql_query("DELETE from tblstudents where Rollid='$id'") or die(mysql_error());
+mysqli_query($dbcon, "DELETE from tblstudents where Rollid='$id'") or die(mysqli_error($dbcon));
 header('location:students.php');
 ?>

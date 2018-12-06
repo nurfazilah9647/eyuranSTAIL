@@ -22,7 +22,7 @@ $row=mysqli_fetch_array($query);
                                         <th width="200">Student Name</th>
                                         <th width="30">Fee Type</th>
                                         <th width="50">Amount</th> 
-                                        <th width="20">Qty</th>
+                                        <th width="20">Receipt</th>
                                         <th width="20">Status</th>
                                         <th width="80">Paid Date</th>                                 
                                     </tr>
