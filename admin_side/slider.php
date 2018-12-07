@@ -1,13 +1,16 @@
-    	<div style="overflow:hidden; width:960px; margin:0 auto; padding:0 20px;"> 
+</section> 
+
+
+            <div style="overflow:hidden; width:960px; margin:0 auto; padding:0 20px;"> 
                 <div class="pix_diapo">
 
-                    <div data-thumb="sti/30657487.jpg">
-                        <img src="sti/30657487.jpg">
+                    <div data-thumb="images/stail1.jpg">
+                        <img src="images/stail1.jpg">
                       
                     </div>
                     
-                    <div data-thumb="sti/83815352.jpg">
-                        <img src="sti/83815352.jpg"> 
+                    <div data-thumb="images/stail2.jpg">
+                        <img src="images/stail2.jpg"> 
                     
                     </div>
                     
