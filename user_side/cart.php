@@ -17,13 +17,12 @@ $row=mysqli_fetch_array($query);
 				          <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
                                 <thead>
                                     <tr>
-                                        <th width="50">Student_Id</th>
-                                        <th width="30">Name</th>
-                                        <th width="10">Class</th>
-                                        <th width="50">Type Of Fee</th>
-                                        <th width="30">Fee Amount</th> 
+                                        <th width="50">Fee Id</th>
+                                        <th width="30">Student Id</th>
+                                        <th width="10">Amount (RM)</th>
+                                        <th width="50">Fee Date</th>
                                         <th width="10">Status</th> 
-                                        <th width="10">Pay Fee</th>                                
+                                        <th width="10">Action</th>                                
                                   
                                     </tr>
                                 </thead>
@@ -31,17 +30,17 @@ $row=mysqli_fetch_array($query);
 								 
                                   <?php  
                                   
-                                  $extra_query=mysqli_query($dbcon,"SELECT * from tblextras ORDER BY 'extra_type'") or die(mysql_error());
+                                  $extra_query=mysqli_query($dbcon,"SELECT * from tblfees WHERE studentId = '$session_id' ORDER BY 'feeId'") or die(mysql_error());
 
 									while($extra2_row=mysqli_fetch_array($extra_query)){
 									?>
 									<tr>
-                                    <td><?php echo $extra2_row['extra_id']; ?></td> 
-                                    <td><?php echo $extra2_row['extra_name']; ?></td>
-                                    <td><?php echo $extra2_row['extra_desc']; ?></td>
-                                    <td><?php echo $extra2_row['extra_type']; ?></td>
-									<td><?php echo $extra2_row['extra_price']; ?></td>												
-									<td><form method="post" action="view.php<?php echo '?id='.$extra2_row['extra_id']; ?>"><input type="hidden" name="extra_id" value=<?php echo $extra2_row['extra_id']; ?>><input type="submit" value="More Info" class="button"/></form></td>							
+                                    <td><?php echo $extra2_row['feeId']; ?></td> 
+                                    <td><?php echo $extra2_row['studentId']; ?></td>
+                                    <td><?php echo $extra2_row['amount']; ?></td>
+                                    <td><?php echo $extra2_row['feeDate']; ?></td>
+									<td><?php echo $extra2_row['status']; ?></td>												
+									<td><form method="post" action="payment.php<?php echo '?id='.$extra2_row['feeId']; ?>"><input type="hidden" name="extra_id" value=<?php echo $extra2_row['feeId']; ?>><input type="submit" value="Pay Now!" class="button"/></form></td>							
                                     </tr>
 
 									<?php  }  ?>

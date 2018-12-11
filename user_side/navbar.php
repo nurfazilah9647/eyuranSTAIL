@@ -1,4 +1,4 @@
-	<?php include('tooltip.php'); ?>			
+		
 	<div class="navbar navbar-fixed-top navbar-inverse">
             <div class="navbar-inner">
                 <div class="container">
@@ -16,7 +16,7 @@
 
 						  <li class="divider-vertical"></li>
 								<li class="">
-								<a  rel="tooltip"  data-placement="bottom" title="Home" id="home" href="index.php"><i class="icon-home icon-large"></i>&nbsp; Home</a> 
+								<a  rel="tooltip"  data-placement="bottom" title="Home" id="home" href="dashboard.php"><i class="icon-home icon-large"></i>&nbsp; Home</a> 
 								</li>
 						  <li class="divider-vertical"></li>
 								<li class="">
