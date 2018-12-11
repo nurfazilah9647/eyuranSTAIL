@@ -11,11 +11,22 @@
 			if( $num_row > 0 ) {
 				header('location:dasboard.php');
 				$_SESSION['id']=$row['RollId'];
-									}
-			else{ 
-			header('location:access_denied.php');
-								}}
-								?>
+			}
+			else{
+				$query = "SELECT * FROM admin WHERE UserName='$RollId' AND `Password`='$password' ";
+				$result = mysqli_query($dbcon,$query)or die(mysqli_error());
+				$num_row = mysqli_num_rows($result);
+				$row=mysqli_fetch_array($result);
+				if( $num_row > 0 ) {
+					header('location:Admin/dasboardAdmin.php');
+					$_SESSION['id']=$row['UserName'];
+				}
+				else{
+					header('location:access_denied.php');
+				}
+			}
+		}
+		?>
 
 
 
