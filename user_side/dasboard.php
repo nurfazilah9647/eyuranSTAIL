@@ -18,10 +18,11 @@ $row=mysqli_fetch_array($query);
 </style>
 </head>
 <body>
-
+<a href="cart.php">
 <button class="button button1" style="
     height: 46px;
 ">Semak Yuran</button>
+</a>
 <button class="button button1" style="
     height: 46px;
 ">Cara Pembayaran Yuran</button>
