@@ -40,7 +40,15 @@ $row=mysqli_fetch_array($query);
                                     <td><?php echo $extra2_row['amount']; ?></td>
                                     <td><?php echo $extra2_row['feeDate']; ?></td>
 									<td><?php echo $extra2_row['status']; ?></td>												
-									<td><form method="post" action="payment.php<?php echo '?id='.$extra2_row['feeId']; ?>"><input type="hidden" name="extra_id" value=<?php echo $extra2_row['feeId']; ?>><input type="submit" value="Bayar" class="button"/></form></td>							
+									<td><form method="post" action="payment.php<?php echo '?id='.$extra2_row['feeId']; ?>">
+                                            <input type="hidden" name="extra_id" value=<?php echo $extra2_row['feeId']; ?>>
+                                            <input <?php if ($extra2_row['status'] == 'Processing' || $extra2_row['status'] == 'Diterima' ) echo " style='display: none';"; ?> type="submit" value="Bayar" class="button"/>
+                                        </form>
+                                        <form method="post" action="viewResit2.php<?php echo '?id='.$extra2_row['feeId']; ?>">
+                                            <input type="hidden" name="extra_id" value=<?php echo $extra2_row['feeId']; ?>>
+                                            <input <?php if ($extra2_row['status'] != 'Diterima' ) echo " style='display: none';"; ?> type="submit" value="Cetak Resit" class="button"/>
+                                        </form>
+                                    </td>							
                                     </tr>
 
 									<?php  }  ?>
