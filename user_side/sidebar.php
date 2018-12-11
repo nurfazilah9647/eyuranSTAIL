@@ -2,11 +2,11 @@
 			<div class="hero-container">                  
 					<ul class="nav nav-tabs nav-stacked">
 						<li class="active">
-							<a href="index.php" class="yellow_link"><i class="icon-home icon-large icon-large"></i>&nbsp; Home</a>
+							<a href="index.php" class="yellow_link"><i class="icon-home icon-large icon-large"></i>&nbsp; Laman Utama</a>
 						</li>
 					
 					
-						<li><a  class="yellow_link" href="sitemap.php"><i class="icon-sitemap icon-large"></i>&nbsp; Map</a></li>
+						<li><a  class="yellow_link" href="sitemap.php"><i class="icon-sitemap icon-large"></i>&nbsp; Peta</a></li>
 					</ul>
 			</div>
 			
@@ -14,17 +14,15 @@
 					
 							<ul class="nav nav-tabs nav-stacked">
 						<li class="">
-						<a><i class="icon-phone icon-large"></i>&nbsp; Contact US</a>
+						<a><i class="icon-phone icon-large"></i>&nbsp; Hubungi Kami</a>
 						</li>
 					</ul>
 
-			<strong>Address</strong>
+			<strong>Alamat</strong>
 			<p>Jalan Tasek Gelugor, 13000 Tasek Gelugor, S.P.U Pulau Pinang, Malaysia</p>
-			<p><strong>School Type</strong></p>
-			<p>Secondary, Government school</p>
-			<p><strong>Principal</strong></p>
-			<p>Tn. Naharudeen Bin Othman</p>
-			<p><strong>Website:</strong>
+			<p><strong>Guru Besar<strong></p>
+			<p>Ahmad Hafiz Bin Mohd</p>
+			<p><strong>Laman Web:</strong>
 			<p><a href="http://www.stailsmart.edu.my/">http://www.stailsmart.edu.my/</a></p>
 			
 			</div>

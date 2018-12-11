@@ -8,7 +8,7 @@
 ">
 				</div>
 				</div>
-					<div class="alert alert-success"><Strong>Heads Up!</strong>&nbsp; Welcome to Sekolah Tahfiz Al-Islah
+					<div class="alert alert-success"><Strong></strong>&nbsp; Selamat Datang Ke Sekolah Tahfiz Al-Islah
 							<div class="pull-right">
 								<i class="icon-calendar icon-large"></i>
 								<?php

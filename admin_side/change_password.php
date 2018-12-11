@@ -15,20 +15,20 @@ $row=mysql_fetch_array($query);
 				<div class="span7">
 						<form class="form-horizontal" method="post">
 							<div class="control-group">
-								<label class="control-label" for="inputEmail">New Password</label>
+								<label class="control-label" for="inputEmail">Kata Laluan Baharu</label>
 								<div class="controls">
 								<input type="text" name="np" id="inputEmail" placeholder="New Password">
 								</div>
 							</div>
 							<div class="control-group">
-								<label class="control-label" for="inputPassword">Re-type New Password</label>
+								<label class="control-label" for="inputPassword">Sila Masukkan semula Kata Laluan</label>
 								<div class="controls">
 								<input type="password" name="rp" id="inputPassword" placeholder="Re-type Password">
 								</div>
 							</div>
 							<div class="control-group">
 								<div class="controls">
-								<button type="submit" name="update" class="btn btn-success">Update</button>
+								<button type="submit" name="update" class="btn btn-success">Kemaskini</button>
 								</div>
 								<br>
 								<br>
@@ -39,11 +39,11 @@ $row=mysql_fetch_array($query);
 						$rp = $_POST['rp'];			
 						if($np!=$rp){
 						?>
-						<div class="alert alert-danger">Password Dont Match</div>
+						<div class="alert alert-danger">Kata Laluan Salah</div>
 						<?php
 						}else{
 						mysql_query("update tblstudents set pass = '$np' where RollId = '$session_id' ")or die(mysql_error); ?>
-						<div class="alert alert-success">Password Change</div>
+						<div class="alert alert-success">Tukar Kata Laluan</div>
 						<?php }}?>
 							</div>
 						</form>

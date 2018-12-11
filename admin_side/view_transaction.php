@@ -19,15 +19,15 @@ $result = mysqli_query($dbcon , $sql2) or die(mysqli_error($dbcon));//conn for c
 
 <tr>
 
-<td align="center" bgcolor="#FFCC00"><strong>Student Name</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Item name</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Item ID</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>Nama Pelajar</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>Jenis Yuran</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>Kod Yuran</strong></td>
 <td align="center" bgcolor="#FFCC00"><strong>Quantity</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Roll ID</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>ID Pelajar</strong></td>
 <td align="center" bgcolor="#FFCC00"><strong>Status</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Added Time</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Transaction</strong></td>
-<td align="center" bgcolor="#FFCC00"><strong>Check Done</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong> Waktu Pembayaran</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>Transaksi</strong></td>
+<td align="center" bgcolor="#FFCC00"><strong>Status</strong></td>
 
 
 </tr>

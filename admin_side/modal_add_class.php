@@ -1,28 +1,28 @@
 	<div id="add_course" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-body">
-			<div class="alert alert-info">Add Class</div>
+			<div class="alert alert-info">Tambah Kelas</div>
 	<form class="form-horizontal" method="post">
 			<div class="control-group">
-				<label class="control-label" for="inputEmail">Code</label>
+				<label class="control-label" for="inputEmail">Kod</label>
 				<div class="controls">
 				<input type="text"  name="code" placeholder="Code" required>
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="inputPassword">Class Name</label>
+				<label class="control-label" for="inputPassword">Nama Kelas</label>
 				<div class="controls">
 				<input type="text" name="title"  placeholder="Class Name" required>
 				</div>
 			</div>
 			<div class="control-group">
 				<div class="controls">
-				<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Save</button>
+				<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Simpan</button>
 				</div>
 			</div>
     </form>
 		</div>
 		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Close</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Tutup</button>
 		</div>
     </div>
 	

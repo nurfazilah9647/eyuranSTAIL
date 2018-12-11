@@ -7,23 +7,23 @@
 			<div class="span12">	
 			   <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Students Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Jadual Pelajar</strong>
                                 </div>
 
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
                              
-								<p><a href="add_student.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Add New Student</a></p>
+								<p><a href="add_student.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Tambah Pelajar Baharu</a></p>
 							
                                 <thead>
                                     <tr>
-                                        <th>Student ID</th>                 
-                                        <th>Name</th>
+                                        <th>ID Pelajar</th>                 
+                                        <th>Nama</th>
                                         <th>Email</th>
-                                        <th>Username</th>                                                               
-                                        <th>Password</th>
-                                        <th>Gender</th>   										
-                                        <th>DOB</th>
-                                        <th>Class</th>
+                                        <th>Nama Pengguna</th>                                                               
+                                        <th>Kata Laluan</th>
+                                        <th>Jantina</th>   										
+                                        <th>Tarikh Lahir</th>
+                                        <th>Kelas</th>
                                         <th>Status</th>
                                         <th>Action</th>
                                     </tr>

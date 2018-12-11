@@ -9,11 +9,11 @@
 	
 <div id="logout" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 <div class="modal-body">
-<div class="alert alert-danger">Are you sure you want to Logout</div>
+<div class="alert alert-danger">Anda pasti untuk Log Keluar</div>
 </div>
 <div class="modal-footer">
-<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-<a href="logout.php" class="btn btn-danger">Yes</a>
+<button class="btn" data-dismiss="modal" aria-hidden="true">Tutup</button>
+<a href="logout.php" class="btn btn-danger">Ya</a>
 </div>
 </div>	
 

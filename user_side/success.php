@@ -8,8 +8,8 @@
 		
 				<div class="span12">
 	<center>
-				<h2>You are Successfully Registered to STI Bacolod Student Grade Inquiry You can now login your account.</h2>
-				<h2>Thank You</h2>
+				<h2>Anda berjaya didaftarkan. Kini anda boleh log masuk ke akaun anda.</h2>
+				<h2>Terima Kasih</h2>
 					
 								
 									</center>

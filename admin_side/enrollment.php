@@ -7,10 +7,10 @@
 			<div class="span2">			     
 							<ul class="nav nav-tabs nav-stacked">
 								<li>
-								<a href="#add_subject" data-toggle="modal" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Add Subject</strong></a>
+								<a href="#add_subject" data-toggle="modal" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Tambah Yuran</strong></a>
 								</li>
 								
-								<p><a href="add_enrollment.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Add New Enrollment</a></p>
+								<p><a href="add_enrollment.php" class="btn btn-success"><i class="icon-plus"></i>&nbsp;Daftar Pelajar Baharu</a></p>
 							</ul>
 								
 	<?php include('add_subject.php'); ?>
@@ -20,17 +20,17 @@
 			
 			 <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Enrollment Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Jadual Pendaftaran</strong>
                                 </div>
 			
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
                                
                                 <thead>
                                     <tr>
-                                        <th>Subject Code</th>
-                                        <th>Subject Title</th>                                 
-                                        <th>Create Date</th>
-                                        <th>Last Update Date</th>
+                                        <th>Kod Yuran</th>
+                                        <th>Jenis Yuran</th>                                 
+                                        <th>Tarikh dibuat</th>
+                                        <th>tarikh Akhir Kemaskini</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>

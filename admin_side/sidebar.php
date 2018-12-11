@@ -21,36 +21,13 @@
 			<strong>Address</strong>
 			<p>Jalan Ilmu, 31000 Batu Gajah, Perak, Malaysia</p>
 			<p><strong>School Type</strong></p>
-			<p>Secondary, Government school</p>
-			<p><strong>Principal</strong></p>
-			<p>Tn. Naharudeen Bin Othman</p>
+			
 			<p><strong>Website:</strong>
 			<p><a href="http://www.smksy.com/">http://www.smksy.com/</a></p>
 			
 			</div>
 			
-	<!-- vision student login -->
-	<div id="vision" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-header"><div class="alert alert-info"><strong>Vision</strong></div></div>
-		<div class="modal-body">
-		<p>To be the leader in innovative and relevant education that nurtures individuals to become competent and responsible members of society.</p>
-		</div>
-		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Close</button>
-		</div>
-    </div>
 	
-	
-				    <!-- mission student login -->
-	<div id="mission" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-header"><div class="alert alert-info"><strong>Mission</strong></div></div>
-		<div class="modal-body">
-		<p>
-		We are an institution committed to provide knowledge through the development and delivery of superior learning systems.
-		We strive to provide optimum value to all our stakeholders – our students, our faculty members, our employees, our partners, our share holders, and our community.
-		We will pursue this mission with utmost integrity, dedication, transparency, and creativity.
-		</p>
-		</div>
 		<div class="modal-footer">
 			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Close</button>
 		</div>

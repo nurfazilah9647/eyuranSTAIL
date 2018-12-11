@@ -15,9 +15,9 @@
 		
 			?>
 			<div class="name">
-				<span><strong>STUDENT NO. : </strong><?php echo $row['RollId']; ?></span>
-				<span><strong>STUDENT NAME : </strong><?php echo $row['StudentName']; ?></strong></span>
-				<span><strong>CLASS NAME : </strong><?php echo $row['ClassName']; ?></strong></span>
+				<span><strong>ID Pelajar: </strong><?php echo $row['RollId']; ?></span>
+				<span><strong>Nama Pelajar : </strong><?php echo $row['StudentName']; ?></strong></span>
+				<span><strong>Nama Kelas : </strong><?php echo $row['ClassName']; ?></strong></span>
 				<span id="print_right">
 				</span>
 			</div>
@@ -37,9 +37,9 @@
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
                                 <thead>
                                     <tr>
-                                        <th width="100">Code</th>
-                                        <th width="400">Subject</th>
-                                        <th>Marks</th>           
+                                        <th width="100">Kod Yuran</th>
+                                        <th width="400">Jenis Yuran</th>
+                                        <th>Jumlah(RM)</th>           
                                         <th class="act"></th>       
 
                                     </tr>

@@ -25,7 +25,7 @@ $exist ='ID Number not Found!';
 	<div class="span5">
 	<div class="form-horizontal">
 				<div class="control-group">
-			<label class="control-label" for="inputEmail">Student ID:</label>
+			<label class="control-label" for="inputEmail">ID Pelajar:</label>
 			<div class="controls">
 			<input type="text" id="inputEmail" name="student_ID" value="<?php if (isset($_POST['submit'])){echo $student_ID;} ?>" placeholder="Student_ID" required>
 				&nbsp;	&nbsp; 	&nbsp; 	&nbsp;
@@ -34,13 +34,13 @@ $exist ='ID Number not Found!';
 		</div>
 		
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Password</label>
+			<label class="control-label" for="inputPassword">Kata Laluan</label>
 			<div class="controls">
 			<input type="password" name="password" value="<?php if (isset($_POST['submit'])){echo $password;} ?>" placeholder="Password">
 			</div>
 		</div>
 			<div class="control-group">
-			<label class="control-label" for="inputPassword">Confirm Password</label>
+			<label class="control-label" for="inputPassword">Pengesahan Kata Laluan</label>
 			<div class="controls">
 			<input type="password" name="cpassword" value="<?php if (isset($_POST['submit'])){echo $cpassword;} ?>" placeholder="Confirm Password" required>
 					<?php if (isset($_POST['submit'])){?> 	<span class="label label-important"><?php echo $a; ?></span><?php }?>

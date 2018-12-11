@@ -16,15 +16,15 @@ $user_row =mysqli_fetch_array($user_query);
                     <div class="nav-collapse collapse">
                         <!-- .nav, .navbar-search, .navbar-form, etc -->
 					<ul class="nav">
-					<li><a href="dasboard.php"><i class="icon-home icon-large"></i>&nbsp;Home</a></li>
-                    <li><a href="class.php"><i class="icon-file icon-large"></i>&nbsp;Class</a></li>
-                    <li><a href="subject.php"><i class="icon-file icon-large"></i>&nbsp;Items</a></li>
-					<li class="active"><a href="transaction.php"><i class="icon-list-alt icon-large"></i>&nbsp;Transaction</a></li>
-					<li><a href="students.php"><i class="icon-group icon-large"></i>&nbsp;Students</a></li>			
-					<li><a href="logout.php"><i class="icon-signout icon-large"></i>&nbsp;Logout</a></li>
+					<li><a href="dasboard.php"><i class="icon-home icon-large"></i>&nbsp;Laman Utama</a></li>
+                    <li><a href="class.php"><i class="icon-file icon-large"></i>&nbsp;Kelas</a></li>
+                    <li><a href="subject.php"><i class="icon-file icon-large"></i>&nbsp;Jenis Yuran</a></li>
+					<li class="active"><a href="transaction.php"><i class="icon-list-alt icon-large"></i>&nbsp;Transaksi</a></li>
+					<li><a href="students.php"><i class="icon-group icon-large"></i>&nbsp;Pelajar</a></li>			
+					<li><a href="logout.php"><i class="icon-signout icon-large"></i>&nbsp;Log Keluar</a></li>
 					</ul>
 					 <div class="pull-right">
-							<div class="admin">Welcome: <?php echo $user_row['UserName']; ?></div>
+							<div class="admin">Selamat Datang: <?php echo $user_row['UserName']; ?></div>
                      </div>
                     </div>
                 </div>

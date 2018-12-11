@@ -14,12 +14,7 @@
                     
                     </div>
                     
-                    <div data-thumb="sti/sultanyussuf.jpg" data-time="7000">
-                        <img src="sti/sultanyussuf.jpg">
-                    </div>              
-                <div data-thumb="sti/brassband.jpg" data-time="7000">
-                        <img src="sti/brassband.jpg">
-                    </div>                
+                               
                                         
                </div><!-- #pix_diapo -->
                 

@@ -11,26 +11,26 @@
 		$row=mysqli_fetch_array($query);
 		
 		?>
-             <div class="alert alert-info"><i class="icon-pencil"></i>&nbsp;Edit Student</div>
-			<p><a class="btn btn-info" href="students.php"><i class="icon-arrow-left icon-large"></i>&nbsp;Back</a></p>
+             <div class="alert alert-info"><i class="icon-pencil"></i>&nbsp;Edit Pelajar</div>
+			<p><a class="btn btn-info" href="students.php"><i class="icon-arrow-left icon-large"></i>&nbsp;Kembali</a></p>
 	<div class="addstudent">
-	<div class="details">Please Enter Details Below</div>	
+	<div class="details">Sila Masukkan Maklumat</div>	
 	<form class="form-horizontal" method="POST" action="update_students.php" enctype="multipart/form-data">
 			<div class="control-group">
-			<label class="control-label" for="inputEmail">Student ID :</label>
+			<label class="control-label" for="inputEmail">I PelajarD :</label>
 			<div class="controls">
 			<input type="hidden" id="inputEmail" name="id" value="<?php echo $row['RollId']; ?>" placeholder="Student No" required>
 			<input type="text" id="rollid" name="rollid" value="<?php echo $row['RollId']; ?>" placeholder="Student No" readonly>
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputEmail">Full Name :</label>
+			<label class="control-label" for="inputEmail">Nama Penuh :</label>
 			<div class="controls">
 			<input type="text" id="name" name="name" value="<?php echo $row['StudentName']; ?>" placeholder="Full Name" required>
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Password : </label>
+			<label class="control-label" for="inputPassword">Kata Laluan : </label>
 			<div class="controls">
 			<input type="text" id="password" name="password" value="<?php echo $row['pass']; ?>" placeholder="Password" readonly>
 			</div>
@@ -42,7 +42,7 @@
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Gender : </label>
+			<label class="control-label" for="inputPassword">jantina : </label>
 			<div class="controls">
 				<select name="gender" required>
 					<?php 
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<div class="control-group">
-			<label class="control-label" for="inputPassword">Class : </label>
+			<label class="control-label" for="inputPassword">Kelas : </label>
 			<div class="controls">
 				<select name="class" id="class" required="required"> 
 					<option value="<?php echo ($row['id']); ?>"><?php echo ($row['ClassName']); ?></option>;
@@ -89,7 +89,7 @@
 		</div>								
 		<div class="control-group">
 			<div class="controls">
-			<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Update</button>
+			<button name="submit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Kemaskini</button>
 			</div>
 		</div>
     </form>				

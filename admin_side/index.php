@@ -9,24 +9,24 @@
 				<div class="span12">
 				<div class="login">
 				<div class="log_txt">
-				<p><strong>Please Enter the Details Below..</strong></p>
+				<p><strong>Sila Masukkan Maklumat Berikut..</strong></p>
 				</div>
 						<form class="form-horizontal" method="POST">
 								<div class="control-group">
-									<label class="control-label" for="inputEmail">Username</label>
+									<label class="control-label" for="inputEmail">nama Pengguna</label>
 									<div class="controls">
 									<input type="text" name="username" id="username" placeholder="Username" required>
 									</div>
 								</div>
 								<div class="control-group">
-									<label class="control-label" for="inputPassword">Password</label>
+									<label class="control-label" for="inputPassword">Kata Laluan</label>
 									<div class="controls">
 									<input type="password" name="password" id="password" placeholder="Password" required>
 								</div>
 								</div>
 								<div class="control-group">
 									<div class="controls">
-									<button id="login" name="submit" type="submit" class="btn"><i class="icon-signin icon-large"></i>&nbsp;Submit</button>
+									<button id="login" name="submit" type="submit" class="btn"><i class="icon-signin icon-large"></i>&nbsp;Hantar</button>
 								</div>
 								</div>
 								

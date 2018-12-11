@@ -7,7 +7,7 @@
 			<div class="span2">			     
 										<ul class="nav nav-tabs nav-stacked">
 											<li>
-											<a href="#add_course" data-toggle="modal" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Add New Class</strong></a>
+											<a href="#add_course" data-toggle="modal" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Tambah Kelas Baharu</strong></a>
 											</li>
 										</ul>
 										
@@ -23,14 +23,14 @@
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
                                 <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Class Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Jadual Kelas</strong>
                                 </div>
                                 <thead>
                                     <tr>
-                                        <th>Class Code</th>
-                                        <th>Class Name</th>
-                                        <th>Create Date</th>
-                                        <th>Last Update Date</th>                                                                
+                                        <th>Kod Kelas</th>
+                                        <th>Nama Kelas</th>
+                                        <th>Tarikh Daftar</th>
+                                        <th>Tarikh Akhir Kemaskini</th>                                                                
                                         <th>Action</th>
                                     </tr>
                                 </thead>

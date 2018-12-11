@@ -3,45 +3,44 @@
 
 	<form class="form-horizontal" method="post">
 					<div class="control-group">
-						<label class="control-label" for="inputEmail">Item ID</label>
+						<label class="control-label" for="inputEmail">ID Yuran</label>
 						<div class="controls">
 						<input type="text"  name="code" placeholder="Code" required value="<?php echo $row['extra_id']; ?>">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPassword">Item Name</label>
+						<label class="control-label" for="inputPassword">Nama Yuran</label>
 						<div class="controls">
 						<input type="text" name="title"  placeholder="Subject Title" required value="<?php echo $row['extra_name']; ?>">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPassword">Item Description</label>
+						<label class="control-label" for="inputPassword">Penerangan</label>
 						<div class="controls">
 						<input type="text" name="desc"  placeholder="Subject Description" required value="<?php echo $row['extra_desc']; ?>">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPassword">Item price</label>
+						<label class="control-label" for="inputPassword">Jumlah (RM)</label>
 						<div class="controls">
 						<input type="text" name="price"  placeholder="Item Price" required value="<?php echo $row['extra_price']; ?>">
 						</div>
 					</div>
 					<div class="control-group">
-						<label class="control-label" for="inputPassword">Item Type</label>
-						<div class="controls">
+						<label class="control-label" for="inputPassword"></label> Jenis<div class="controls">
 						<input type="text" name="type"  placeholder="For Example: fee,book" required value="<?php echo $row['extra_type']; ?>">
 						</div>
 					</div>										
 				
 					<div class="control-group">
 						<div class="controls">
-						<button name="edit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Update</button>
+						<button name="edit" type="submit" class="btn btn-success"><i class="icon-save icon-large"></i>&nbsp;Kemaskini</button>
 						</div>
 					</div>
     </form>
 		</div>
 		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Close</button>
+			<button class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-remove icon-large"></i>&nbsp;Tutup</button>
 		</div>
     </div>
 	

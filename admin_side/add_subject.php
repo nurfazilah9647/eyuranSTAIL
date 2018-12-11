@@ -3,7 +3,7 @@
 
 	<form class="form-horizontal" method="post">
 			<div class="control-group">
-				<label class="control-label" for="inputEmail">Code</label>
+				<label class="control-label" for="inputEmail">Kod</label>
 				<div class="controls">
 				<input type="text"  name="code" placeholder="Code" required>
 				</div>

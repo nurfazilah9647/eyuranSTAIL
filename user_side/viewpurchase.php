@@ -17,14 +17,14 @@ $row=mysqli_fetch_array($query);
 				          <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
                                 <thead>
                                     <tr>
-                                        <th width="50">Transaction No</th>
-                                        <th width="30">Student ID</th>
-                                        <th width="200">Student Name</th>
-                                        <th width="30">Fee Type</th>
-                                        <th width="50">Amount</th> 
-                                        <th width="20">Receipt</th>
+                                        <th width="50">No Transaksi</th>
+                                        <th width="30">ID Pelajar</th>
+                                        <th width="200">Nama Pelajar</th>
+                                        <th width="30">Jenis Yuran</th>
+                                        <th width="50">Jumlah</th> 
+                                        <th width="20">Resit</th>
                                         <th width="20">Status</th>
-                                        <th width="80">Paid Date</th>                                 
+                                        <th width="80">Tarikh Bayaran</th>                                 
                                     </tr>
                                 </thead>
                                 <tbody>

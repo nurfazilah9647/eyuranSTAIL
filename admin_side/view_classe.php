@@ -18,8 +18,8 @@
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">                      
                                 <thead>
                                     <tr>
-                                        <th width="100">Subject ID</th>
-                                        <th width="400">Subject Name</th>
+                                        <th width="100">Kod Yuran</th>
+                                        <th width="400">Jenis Yuran</th>
                                         <th width="50">Action</th>     
                                     </tr>
                                 </thead>

@@ -7,7 +7,7 @@
 			<div class="span2">			     
 							<ul class="nav nav-tabs nav-stacked">
 								<li>
-								<a href="add_item.php" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Add New Item</strong></a>
+								<a href="add_item.php" ><i class="icon-plus icon-large"></i>&nbsp;<strong>Tambah</strong></a>
 								</li>
 							</ul>
 			</div>
@@ -15,18 +15,18 @@
 			
 			 <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Items Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Jadual</strong>
                                 </div>
 			
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
                                
                                 <thead>
                                     <tr>
-                                        <th>Item ID</th>
-                                        <th>Item Name</th>                                 
-                                        <th width="400">Description</th>
-                                        <th>Price</th>
-                                        <th>Type</th>
+                                        <th>ID Yuran</th>
+                                        <th>Nama Yuran</th>                                 
+                                        <th width="400">Penerangan</th>
+                                        <th>Jumlah (RM)</th>
+                                        <th>Jenis</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>

@@ -10,7 +10,7 @@
 			
 			 <div class="alert alert-info">
                                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                    <strong><i class="icon-user icon-large"></i>&nbsp;Transaction Table</strong>
+                                    <strong><i class="icon-user icon-large"></i>&nbsp;Jadual Transaksi</strong>
                                 </div>
 			
                             <table cellpadding="0" cellspacing="0" border="0" class="table  table-bordered" id="example">
@@ -18,13 +18,13 @@
                                 <thead>
                                     <tr>
                                         <th width="50">bil</th>
-                                        <th width="50">Fee ID</th>
-                                        <th width="200"> Name</th>
-                                        <th width="50">Fee Type</th>
-                                        <th width="70">Price</th> 
-                                        <th width="50">Total student</th>
+                                        <th width="50">ID Yuran</th>
+                                        <th width="200"> Nama Pelajar</th>
+                                        <th width="50">Jenis Yuran</th>
+                                        <th width="70">Jumlah (RM)</th> 
+                                        <th width="50">Bilangan Pelajar</th>
                                         <th width="20">Status</th>
-                                        <th width="80">Paid Date</th>
+                                        <th width="80">Tarikh Bayaran</th>
                                         <th width="80">Action</th>  
                                     </tr>
                                 </thead>
